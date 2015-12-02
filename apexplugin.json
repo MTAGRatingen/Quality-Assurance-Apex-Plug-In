@@ -1,0 +1,34 @@
+{
+  "name" : "Quality Assurance",
+  "version" : "0.2", //Version der datei
+  "description" : "With that Plugin you can define Rules based on SQL Queries, which check your Application.
+These Rules can use the APEX Repository (APEX Views) to check Items, Regions, Dynamic Actions and every other object can be accessed in your database.",
+  "keywords" : ["QA","Plugin", "Apex","Quality", "Assurance","Quality Assurance","Region Plugin","APEX Repository"], 
+  "homepage" : "https://github.com/MTAGRatingen/Quality-Assurance-Apex-Plug-In.git", //Hompage von github einfügen
+  "bugs" : {
+    "url" : "https://github.com/MTAGRatingen/Quality-Assurance-Apex-Plug-In/issues", //wo bugs gemeldet werden von uns
+    "email" : "apexteam@mt-ag.com"
+  },
+  "license" : "MIT", //License angabe
+  "author" : {
+    "name" : "Oliver Lemm",
+    "email" : "apexteam@mt-ag.com", 
+    "url" : "http://oliverlemm.blogspot.de/"
+  },
+  "repository" : { 
+    "type" : "git",
+    "url" : "https://github.com/MTAGRatingen/Quality-Assurance-Apex-Plug-In.git" 
+  },
+ "oracle" : { 
+    "versions" : ["11.1.0.1", "12.1.0.1"],
+    "apex" : {
+      "versions" : ["4.1.0","5.0"],
+      "plugin" : {
+        "internalName" : "DE.OLEMM.QUALITYASSURANCE",
+        "type" : "Region", 
+        "demo" : "apex.mt-ag.com/apex/f?p=278:1", 
+        "previewImage" : "http://de.slideshare.net/OliverLemm/the-apex-qa-plugin" 
+      }
+    }
+  }
+}
