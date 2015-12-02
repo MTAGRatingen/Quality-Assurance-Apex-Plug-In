@@ -1,8 +1,7 @@
 {
   "name" : "Quality Assurance",
   "version" : "0.2", 
-  "description" : "With that Plugin you can define Rules based on SQL Queries, which check your Application.
-These Rules can use the APEX Repository (APEX Views) to check Items, Regions, Dynamic Actions and every other object can be accessed in your database.",
+  "description" : "With that Plugin you can define Rules based on SQL Queries, which check your Application. These Rules can use the APEX Repository (APEX Views) to check Items, Regions, Dynamic Actions and every other object can be accessed in your database.",
   "keywords" : ["QA","Plugin", "Apex","Quality", "Assurance","Quality Assurance","Region Plugin","APEX Repository"], 
   "homepage" : "https://github.com/MTAGRatingen/Quality-Assurance-Apex-Plug-In.git", 
   "bugs" : {
