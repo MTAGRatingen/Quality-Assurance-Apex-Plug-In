@@ -18,8 +18,8 @@ Further information and a demo Case will be given in summer 2014 after the confe
 !!! Login is: !!!<br>
 <a href="http://apex.mt-ag.com/apex/f?p=278:LOGIN_DESKTOP::::::" target="_blank">Demo</a></p>
 
-<h3>Installation</h3>
-<p>Installation of the Plugin:</p>
+#Installation
+<h3>Install the Plugin</h3>
 
 <p>Go into the APEX Workspace, where you like to install the Plugin and import the /APEX/region_type_plugin_com_mtag_olemm_qa_region.sql file as an Region Plugin.<br>
 Afterwards go into your SQL-Tool or into the SQL Workshop and install the database objects.</p>
