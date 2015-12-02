@@ -29,7 +29,7 @@ plugin_qa_install.sql to install the Objects.<br>
 At last you can import some demo rules which are included in the file
 /DML/plugin_qa_rules.sql</p>
 
-<h3>Run the Plugin:</h3>
+<h3>Run the Plugin</h3>
 <p>Go to your application and choose a page where you would like to run the checks. It's recommed to use the Global Page,
 for checking every Page and add a Region -&gt; Plugin -&gt; Quality Assurance - Region to this page.</p>
 
