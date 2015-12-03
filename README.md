@@ -21,13 +21,11 @@ The plugin can be placed on any page in your APEX application, but we recommend 
 #Installation
 <h3>Install the Plugin</h3>
 
-<p>Go into the APEX Workspace, where you like to install the Plugin and import the /APEX/region_type_plugin_com_mtag_olemm_qa_region.sql file as an Region Plugin.<br>
-Afterwards go into your SQL-Tool or into the SQL Workshop and install the database objects.</p>
+<p>Go into the APEX workspace, where you like to install the QA Plugin and import the file /APEX/region_type_plugin_com_mtag_olemm_qa_region.sql as a region plugin.
+Afterwards, go into your favorite SQL-tool or into the SQL workshop within APEX and install the database objects. Use the script plugin_qa_install.sql to install these
+</p>
 
-<p>Use the Script 
-plugin_qa_install.sql to install the Objects.<br>
-At last you can import some demo rules which are included in the file
-/DML/plugin_qa_rules.sql</p>
+<p>Optionally, you can import some demo checks which are included in the file /DML/plugin_qa_rules.sql.</p>
 
 <h3>Run the Plugin</h3>
 <p>Go to your application and choose a page where you would like to run the checks. It's recommed to use the Global Page,
