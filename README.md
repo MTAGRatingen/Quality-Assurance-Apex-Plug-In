@@ -1,21 +1,21 @@
 # Quality-Assurance-Apex-Plug-In
 
 <h3>What is it?</h3>
-With that Plugin you can define Rules based on SQL Queries, which check your Application.
-These Rules can use the APEX Repository (APEX Views) to check Items, Regions, Dynamic Actions and every other object can be accessed in your database.
 
-Further on you can also define rules based on your Table Content or based on the Oracle Metadata tables like user_objects.
-The Region Plugin can be placed on any page in your APEX Application. The best Page to place the plugin is on the Global Page. Then the Plugin checks on every Page which is run your rule and prints out all objects which are in conflict with your rules.
-Equal to the Advisor you can directly use a link to edit the APEX Element and solve the problem.
-<p>This Beta Release is combined to the presentation on KScope 2014.
-Further information and a demo Case will be given in summer 2014 after the conference.</p>
+Even with written guidelines setup for your APEX project, it still is a challenge to get all your </br>developers aligned to live these guidelines.  This little plugin helps by showing on the page which</br> guidelines where not followed properly, so the developer can address these.
+
+
+The QA Plugin uses the APEX metadata repository to check the guidelines you implement. Several </br>checks come with the plugin, but since each project is different, you might want to extend the checks made.
+
+
+The plugin can be placed on any page in your APEX application, but we recommend to place it on the global page. 
 
 <h3>Information</h3>
 <a href="http://de.slideshare.net/OliverLemm/the-apex-qa-plugin" target="_blank">Presentation of Quality Assurance Plugin APEX </a>
 
 <h3>Demo</h3>
-<p>In the Link below you can try out and see the Plugin<br>
-!!! Login is: !!!<br>
+<p>Just click on the link below to see the plugin in action:</br></br>
+
 <a href="http://apex.mt-ag.com/apex/f?p=278:LOGIN_DESKTOP::::::" target="_blank">Demo</a></p>
 
 #Installation
