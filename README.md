@@ -29,11 +29,10 @@ Afterwards, go into your favorite SQL-tool or into the SQL workshop within APEX 
 <p>Optionally, you can import some demo checks which are included in the file /DML/plugin_qa_rules.sql.</p>
 
 <h3>Run the Plugin</h3>
-<p>Go to your application and choose a page where you would like to run the checks. It's recommed to use the Global Page,
-for checking every Page and add a Region -&gt; Plugin -&gt; Quality Assurance - Region to this page.</p>
+<p>Go to your application and choose a page where you would like to run the checks and add the plugin. We recommended that you add the plugin on the Global Page, so it is executed automatically on every page.</p>
 
 <h3>Security</h3>
-<p>It's also recommed to use a condition, that only developers can see the region. Use this PL/SQL Condition</p>
+<p>To make sure that only developers see the outcome of the checks, we recommend to add the following  PL/SQL condition for the QA Plugin:</p>
 
-<p>APEX_Application.g_edit_cookie_session_id IS NOT NULL
-then only People who are logged in into the APEX Workspace can see this region. </p>
+<p>apex_application.g_edit_cookie_session_id IS NOT NULL 
+</p>
