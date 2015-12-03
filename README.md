@@ -14,11 +14,12 @@ The plugin can be placed on any page in your APEX application, but we recommend 
 <a href="http://de.slideshare.net/OliverLemm/the-apex-qa-plugin" target="_blank">Presentation of Quality Assurance Plugin APEX </a>
 
 <h3>Demo</h3>
-<p>Just click on the link below to see the plugin in action:</br></br>
+<p>Just click on the link below to see the plugin in action:</p>
 
-<a href="http://apex.mt-ag.com/apex/f?p=278:LOGIN_DESKTOP::::::" target="_blank">Demo</a></p>
+<p><a href="http://apex.mt-ag.com/apex/f?p=278:LOGIN_DESKTOP::::::" target="_blank">Demo</a></p>
 
-#Installation
+# Installation
+
 <h3>Install the Plugin</h3>
 
 <p>Go into the APEX workspace, where you like to install the QA Plugin and import the file /APEX/region_type_plugin_com_mtag_olemm_qa_region.sql as a region plugin.
