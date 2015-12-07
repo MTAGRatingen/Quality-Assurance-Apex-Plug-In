@@ -1,6 +1,6 @@
 {
 	"name": "Quality Assurance",
-	"version": "1.0",
+	"version": "0.2",
 	"description": "With that Plugin you can define Rules based on SQL Queries, which check your Application.",
 	"keywords": ["QA", "Plugin", "Apex", "Quality", "Assurance", "Quality Assurance", "Region Plugin", "APEX Repository"],
 	"homepage": "https://github.com/MTAGRatingen/Quality-Assurance-Apex-Plug-In.git",
