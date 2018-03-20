@@ -16,7 +16,7 @@ The plugin can be placed on any page in your APEX application, but we recommend 
 <h3>Demo</h3>
 <p>Just click on the link below to see the plugin in action:</p>
 
-<p><a href="http://apex.mt-ag.com/apex/f?p=278" target="_blank">Demo</a></p>
+<p><a href="https://apex.mt-ag.com/apex/f?p=278" target="_blank">Demo</a></p>
 
 # Installation
 
