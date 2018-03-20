@@ -25,7 +25,7 @@
 			"plugin": {
 				"internalName": "DE.OLEMM.QUALITYASSURANCE",
 				"type": "region",
-				"demo": "https://apex.mt-ag.com/apex/f?p=278:LOGIN_DESKTOP::::::",
+				"demo": "https://apex.mt-ag.com/apex/f?p=278",
 				"previewImage": "http://de.slideshare.net/OliverLemm/the-apex-qa-plugin"
 			}
 		}
